@@ -1,7 +1,6 @@
 def find_the_two_greatest_factors_that_multiply_to_a_palindrome():
     diagonal = 0
-    palindromes = []
-
+    
     while True:
         diagonal += 1
 
@@ -53,5 +52,5 @@ def digit_in_position(i, number):
 
 print(("{} is the greatest palindrome that is a "
        "multiple of two three-integer numbers, "
-       "namely {} and {}").format(
+       "namely {} and {}.").format(
       *find_the_two_greatest_factors_that_multiply_to_a_palindrome()))
