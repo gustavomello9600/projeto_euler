@@ -13,7 +13,6 @@ function find_least_number_divisible_by_naturals_up_to_(n)
         end
     end
 
-    println(factors)
     return reduce(*, (k^v for (k, v) in factors))
 end
 
