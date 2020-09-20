@@ -1,6 +1,6 @@
 from itertools import cycle
 
-relevant_primes = [2, 3, 5, 7, 11, 13, 17, 19]
+relevant_primes = [3, 7, 11, 13, 17, 19]
 i = 8
 
 
@@ -20,6 +20,6 @@ while i < 10001:
     if is_prime(p):
         relevant_primes.append(p)
         i += 1
-        
+
 
 print(f"10001st prime is {p}")
