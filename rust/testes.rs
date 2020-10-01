@@ -6,4 +6,7 @@ fn main() {
     for c in &vec[1..4] {
         println!("{:?}", c);
     }
+
+    let n = 3;
+    let m: u64 = n as u64;
 }
