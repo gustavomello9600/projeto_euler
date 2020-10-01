@@ -16,7 +16,6 @@ function sum_primes_until(n)
     end
 
     primes = numbers[sieve]
-
     return sum(primes)
 end
 
